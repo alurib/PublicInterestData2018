@@ -115,3 +115,6 @@ ggplot(care_placement, aes(time_in_care))+
   labs(y = "Proportion by Race", x = "Total Time in Care (in weeks)", color = "Race")+
   ggtitle("Time Spent in Care by Race")
 
+
+##---------------------------------------------------------------------------
+
