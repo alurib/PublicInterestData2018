@@ -1,6 +1,25 @@
-## 2018-03-30
-* MC: explored data linking -- details at linkingdata.md; examined implications of coding of race -- details at racevar.md; generated example of clustered standard errors in R, and example of extracting initial foster care placement; updated baseline disproportionality 
+## 2018-04-13
+* MC: finished updating postreferral models (analysis_postreferral.R), added to document; generated initial figure summarizing model results for race (figure_predictions.R) and added to document.
 
+## 2018-04-06
+* MC: finished/updated disproportionality section; made Cville tract maps or child pop, referral rates, poverty rates and added to report. merged group 1 scripts into prep_postreferral.R, figures_postreferral.R, analysis_postreferral.R; added comments; made figures consistent throughout; added logit models for accept, tweaked logit models for investigate, substantiate, severity. Worked on matching referral and active for additional analysis (contact count and duration of services).
+
+## 2018-03-30
+* MC: explored data linking -- details at linkingdata.md; examined implications of coding of race -- details at racevar.md; generated example of clustered standard errors in R, and example of extracting initial foster care placement; updated baseline disproportionality. Adding to report.
+
+### Group 1
+
+* MW: I met with my group to discuss how we wanted to finalize our findings. I consolidated Hannah's and my graphs into one R file, where I added the specific coloring to the graphs. I uploaded this to the box and updated the progress report. I also added images and information to the latex document. I will continue to do this during the rest of the week.
+* HS: This week I finished my logit models for race on investigation, finding, and finding level. I uploaded the code to the box, though did not add it to Sharelatex. I think there still needs to be some work done on refining the models, I am not sure that using "white" as the omitted category works super well? Or maybe I need to add more definitions of race outside of "children of color". I was also unsure about the effects of adding type of abuse versus priority level. Anyway, that was what I worked on this week. 
+* JM: This week I looked at all of the code I have written for the class and put into words what I did. In addition, I am also in charge of LaTeX formatting for the group and taught my group how to use stargazer. As a group, we met on 3/28 to create a few best practices for how our graphs should look like and what information they should convey. This included specifying which race variable to look at. Personally, I also edited a lot of my previously written code and cleaned up the visualization. For the following weeks I will try to allocate time to continue working on this project because it has definitely been a blast!
+* MW: This week, I worked on writing up the analysis of the two graphs I was responsible for in my group and organized a final report summary that has all of our group's information synthesized on it (which I will upload to the box after some more edits). Thank you again for helping me with my graphs on Sharelatex!
+* NP: I reviewed my progress in this project and have concluded all my analysis below: I did analysis about the substantiation of abuse in different races; Clean data: (1) delete all DRS cases and remove all NAs, (2) Build “race_class” variable according to type, (3) Build “founded” variable which includes founded level 1,2,3. We have a question leaves here: in which cases, the government will choose to appealed? Founded or not founded?
+
+### Group 2
+
+* AW: I read through and edited the report on LaTex. I also added information for our Group's section and started brainstorming for the discussion & implication section. I played around with the html file that Charlotte made for our group last time.
+* BA: Worked with Charlotte to understand the limitations of the data and discussed the potential solutions to merging the foster care data with referral data. Discusssed about selection of visualizations that needs to go into the report based on what is it that gets stakeholders would like to see. Finally, learnt the updates from the last weeks class. 
+* CM: All scripts and the progress report have been updated to reflect the decision to limit the data to three years. I also added graphs and language to the LaTeX document, tried different visualizations for the data, and updated our group progress report. I have some questions about which models to include, and what language is relevant and or appropriate. 
 
 ## 2018-03-23
 * MC: emailed lab with my updates, plans for Friday, and race coding review; wrote/added progress doc to box; work on report document.
